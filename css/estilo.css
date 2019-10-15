@@ -6,8 +6,9 @@ html, body, #home {
 }
 
 body {
-    background: url(../imagens/fachada-loja.jpeg);
+    background: url(../imagens/fachada-loja.jpeg) no-repeat top center;
     background-attachment: fixed;
+    overflow-x: hidden;
 }
 
 h3 {
@@ -59,9 +60,8 @@ nav.navbar-transparente {
     background: white;
 }
 
-#marcas img {
-    width: 350px;
-    height: 350px;
+#sobre {
+    background: white;
 }
 
 h4.text-align {
